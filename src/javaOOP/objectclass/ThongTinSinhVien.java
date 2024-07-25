@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.objectclass;
 
 public class ThongTinSinhVien {
 

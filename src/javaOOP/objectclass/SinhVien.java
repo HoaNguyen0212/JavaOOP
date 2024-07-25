@@ -1,4 +1,4 @@
-package javaOOP;
+package javaOOP.objectclass;
 
 public class SinhVien {
     String name;
@@ -21,6 +21,13 @@ public class SinhVien {
         this.age = age1;
         this.address = address1;
         this.className = className1;
+    }
+
+    public void printInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Address: " + address);
+        System.out.println("Class name: " + className);
     }
 
     public int getAge() {
